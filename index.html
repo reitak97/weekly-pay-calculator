@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Pay Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Weekly Pay Calculator</h1>
+  
+    <form>
+        <label>Hourly Rate</label>
+        <input type="number" id="hourly-rate" placeholder="$0">
+    </form>
+       
+       
+    <div id="container">
+        <div class="day">
+            <h2>Monday</h2>
+            <input id="monday-hours" type="number" placeholder="Hours">
+            <input  id="monday-minutes" type="number" placeholder="Minutes">
+        </div>
+        <div class="day">
+            <h2>Tuesday</h2>
+            <input id="tuesday-hours" type="number" placeholder="Hours">
+            <input id="tuesday-minutes" type="number"  placeholder="Minutes">
+        </div>
+        <div class="day">
+            <h2>Wednesday</h2>
+            <input id="wednesday-hours" type="number" placeholder="Hours">
+            <input id="wednesday-minutes" type="number" placeholder="Minutes">
+        </div>
+        <div class="day">
+            <h2>Thursday</h2>
+            <input id="thursday-hours" type="number" placeholder="Hours">
+            <input id="thursday-minutes" type="number" placeholder="Minutes">
+        </div>
+        <div class="day">
+            <h2>Friday</h2>
+            <input id="friday-hours" type="number" placeholder="Hours">
+            <input id="friday-minutes" type="number" placeholder="Minutes">
+        </div>
+    </div>
+
+    <div id="calculate">
+        <button>Calculate</button>
+    </div>  
+   
+    <div id="result">
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
